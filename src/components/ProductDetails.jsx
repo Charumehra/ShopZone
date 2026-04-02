@@ -21,7 +21,6 @@ function ProductDetails() {
     fetch(`https://dummyjson.com/products?limit=6`)
       .then((res) => res.json())
       .then((data) => {
-        // current product remove kar do
         const filtered = data.products.filter(
           (item) => item.id !== Number(id)
         );
