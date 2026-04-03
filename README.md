@@ -29,7 +29,7 @@ Deployment: Vercel
 
 ##  Screenshot
 
-![App Screenshot]([src\assets\screenshot.png](https://github.com/Charumehra/ShopZone/blob/6d77d5ae154899e184de2a050ba8d6c491d4d108/src/assets/screenshot.png))
+![ShopZone Preview](https://raw.githubusercontent.com/Charumehra/ShopZone/e51046030e84d38e3ce69c2bcd2c2bd27c333854/src/assets/screenshot.png)
 
 
 ## Live Link
