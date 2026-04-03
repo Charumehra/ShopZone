@@ -4,14 +4,14 @@ export const CartContext = createContext();
 
 export const CartProvider = ({ children }) => {
   const [cart, setCart] = useState(() => {
-    try {
-      const saved = localStorage.getItem("shopZone_cart");
-      return saved ? JSON.parse(saved) : [];
-    } catch (error) {
-        alert("Failed to load cart from storage: " + error.message);
-      return [];
-    }
-  });
+  try {
+    const saved = localStorage.getItem("shopZone_cart");
+    return saved ? JSON.parse(saved) : [];
+  } catch (error) {
+    console.error("Storage error:", error);
+    return []; 
+  }
+});
 
   useEffect(() => {
     localStorage.setItem("shopZone_cart", JSON.stringify(cart));
