@@ -17,16 +17,20 @@ Responsive Design: Optimized for everything from mobile devices to ultra-wide 4K
 Smart Centering: Layouts mathematically centered on the Y-axis for a floating gallery feel.
 
 ## Tech Stack
-Frontend: React.js (Hooks & Context API)
+Frontend: React.js 
 
-Styling: Tailwind CSS (Custom Utility Classes)
+Styling: Tailwind CSS 
 
 Routing: React Router DOM v6
 
 API: DummyJSON
 
-Deployment: Vercel / Netlify
+Deployment: Vercel 
 
 ##  Screenshot
 
-![App Screenshot](src\assets\screenshot.png)
+![ShopZone Preview](https://raw.githubusercontent.com/Charumehra/ShopZone/e51046030e84d38e3ce69c2bcd2c2bd27c333854/src/assets/screenshot.png)
+
+
+## Live Link
+![SHOPZONE](https://shop-zone-nine-alpha.vercel.app/)
