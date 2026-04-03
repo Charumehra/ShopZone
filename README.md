@@ -1,16 +1,32 @@
-# React + Vite
+### ShopZone | Modern E-Commerce Experience
+A high-end, minimalist e-commerce application built with React and Tailwind CSS. ShopZone focuses on a premium "editorial" aesthetic, featuring a dark-mode interface, seamless state management, and a responsive gallery-style layout.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+Editorial UI: A "tech-noir" minimalist design with a focus on typography and negative space.
 
-Currently, two official plugins are available:
+Dynamic Product Catalog: Fetches real-time data from the DummyJSON API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Advanced Filtering: Search, category filtering, and price sorting (High/Low).
 
-## React Compiler
+Persistent Cart: Full cart functionality (Add, Remove, Quantity adjustments) with localStorage persistence.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Context API: Global state management for a seamless shopping experience across routes.
 
-## Expanding the ESLint configuration
+Responsive Design: Optimized for everything from mobile devices to ultra-wide 4K monitors.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Smart Centering: Layouts mathematically centered on the Y-axis for a floating gallery feel.
+
+## Tech Stack
+Frontend: React.js (Hooks & Context API)
+
+Styling: Tailwind CSS (Custom Utility Classes)
+
+Routing: React Router DOM v6
+
+API: DummyJSON
+
+Deployment: Vercel / Netlify
+
+##  Screenshot
+
+![App Screenshot](src\assets\screenshot.png)
