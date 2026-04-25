@@ -8,7 +8,7 @@ function Navbar() {
   const totalItems = cart.reduce((acc, item) => acc + item.quantity, 0);
 
   return (
-    <nav className="h-16 backdrop-blur-md bg-black/40 border-b border-white/10 fixed top-0 z-50 w-full px-6 md:px-8 flex justify-between items-center">
+    <nav className="h-14 backdrop-blur-md bg-black/40 border-b border-white/10 fixed top-0 z-50 w-full px-6 md:px-8 flex justify-between items-center">
       <Link
         to="/"
         className="text-white font-black uppercase tracking-tighter italic text-lg md:text-xl"
